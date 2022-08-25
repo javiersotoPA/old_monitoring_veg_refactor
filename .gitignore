@@ -5,3 +5,4 @@ __pycache__/
 credentials.py
 table_iterator.py
 .ipynb_checkpoints
+*.js
