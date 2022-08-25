@@ -1,0 +1,7 @@
+database.ini
+__pycache__/
+.idea/
+.vscode/
+credentials.py
+table_iterator.py
+.ipynb_checkpoints
