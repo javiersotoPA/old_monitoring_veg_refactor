@@ -1,0 +1,1 @@
+"C:\Program Files\PostgreSQL\12\bin\pg_dump.exe" --schema-only -n *test_old_monitoring -U j_soto peatland_action > pa_monitoring_schema.sql
