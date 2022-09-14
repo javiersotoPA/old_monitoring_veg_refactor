@@ -1,4 +1,4 @@
-# Scripts for managing PeatlandAction restoration spatial data
+# Scripts for refactoring old monitoring data
 
 The scripts in this repo can be used to upload old veg monitoring data into the DB. The scripts can be run using conda environment.
 
@@ -51,7 +51,13 @@ Script to insert quadrats spreadsheet into the DB
 <br>
 
 ---
+## The SQL files nbn and pa monitoring shcema
 
+pa monitoring shcema sql file contains the strucutre of the shcema (without data). NBN.sql file can be used to regenerate NBN table if there are changes on previous tables
+
+<br>
+
+---
 
 
 
