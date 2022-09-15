@@ -14,7 +14,7 @@ import pandas as pd
 
 conn = psycopg2.connect(database=database, user=user, password=password, host=host, port=port)
 
-data = r"C:\javi\in_progress\veg_data_formating\Book1-returned_trim.xlsx"
+data = r"C:\javi\in_progress\veg_data_formating\quadrats\baseline_survey_dates.xlsx"
 
 df = pd.read_excel(data)
 df.columns= df.columns.str.lower()
@@ -41,6 +41,6 @@ def execute_values(conn, df, table):
     print("the dataframe is inserted")
     cursor.close()
   
-execute_values(conn, df, 'test_old_monitoring.taxon_ids')
+execute_values(conn, df, 'test_old_monitoring.baseline_survey_dates')
 
 
